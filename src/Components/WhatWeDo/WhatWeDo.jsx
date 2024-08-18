@@ -9,7 +9,7 @@ function WhatWeDo() {
     return (
         <section className="what-we-do">
             <h2 className="what-we-do-heading">What We Do</h2>
-            
+
             <div className="what-we-do-cards">
                 <div className="card" style={{ '--animation-order': 1 }}>
                     <div className="card-icon">
