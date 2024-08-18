@@ -1,0 +1,122 @@
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.what-we-do {
+    text-align: center;
+    background-color: var(--background-color);
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.what-we-do-heading {
+    padding: 50px 20px;
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: var(--primary-font);
+    /* margin-bottom: 50px; */
+    margin: 0;
+    color: #333;
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.what-we-do-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    width: 50vw;
+    height: max-content;
+    /* No gap between cards */
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+    min-width: 150px;
+    height: 90%;
+    padding: 20px;
+    background-color: #ffffff;
+    /* border-radius: 8px; */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 10px 0;
+    /* To add space between rows when wrapping */
+    animation: fadeInUp 1s ease-in-out;
+    animation-delay: calc(0.2s * var(--animation-order));
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Ensures animation starts hidden */
+}
+
+.card-icon {
+    width: 100px;
+    height: 100px;
+    background-color:var(--background-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.card-icon img {
+    width: 60px;
+    height: 60px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-family: var(--primary-font);
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #1f1f1f;
+}
+
+.card-description {
+    word-spacing: 2px;
+    letter-spacing: 0.6px;
+    font-size: 1.2rem;
+    font-family: var(--primary-font);
+    color: #000000;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .what-we-do-cards {
+        flex-direction: column;
+    }
+
+    .what-we-do-heading{
+        font-size: 2.5rem;
+    }
+
+    .what-we-do{
+        height: max-content;
+    }
+    .card {
+        margin: 10px 0;
+    }
+    .card-title{
+        font-size: 1.2rem;
+    }
+
+    .card-description{
+        font-size: 0.9rem;
+    }
+}
