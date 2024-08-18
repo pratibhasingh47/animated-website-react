@@ -67,7 +67,7 @@
 .card-icon {
     width: 100px;
     height: 100px;
-    background-color:var(--background-color);
+    background-color: var(--background-color);
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -102,21 +102,23 @@
         flex-direction: column;
     }
 
-    .what-we-do-heading{
+    .what-we-do-heading {
         font-size: 2.5rem;
     }
 
-    .what-we-do{
+    .what-we-do {
         height: max-content;
     }
+
     .card {
         margin: 10px 0;
     }
-    .card-title{
+
+    .card-title {
         font-size: 1.2rem;
     }
 
-    .card-description{
+    .card-description {
         font-size: 0.9rem;
     }
 }
