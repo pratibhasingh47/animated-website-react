@@ -7,29 +7,29 @@
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
-  }
-  
-  .info2-content {
+}
+
+.info2-content {
     max-width: 800px;
     width: 100%;
-  }
-  
-  .info2-heading {
+}
+
+.info2-heading {
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 20px;
     color: #333;
     font-family: var(--primary-font);
-  }
-  
-  .info2-subheading {
+}
+
+.info2-subheading {
     font-size: 2rem;
     margin-bottom: 40px;
     color: #666;
     font-family: var(--primary-font);
-  }
-  
-  .info2-button {
+}
+
+.info2-button {
     padding: 15px 30px;
     font-size: 1.2rem;
     font-family: var(--primary-font);
@@ -40,40 +40,39 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  }
-  
-  .info2-button:hover {
+}
+
+.info2-button:hover {
     background-color: #0056b3;
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
     .info2-heading {
-      font-size: 2.5rem;
+        font-size: 2.5rem;
     }
-  
+
     .info2-subheading {
-      font-size: 1.5rem;
+        font-size: 1.5rem;
     }
-  
+
     .info2-button {
-      padding: 12px 25px;
-      font-size: 1rem;
+        padding: 12px 25px;
+        font-size: 1rem;
     }
-  }
-  
-  @media (max-width: 480px) {
+}
+
+@media (max-width: 480px) {
     .info2-heading {
-      font-size: 2rem;
+        font-size: 2rem;
     }
-  
+
     .info2-subheading {
-      font-size: 1.2rem;
+        font-size: 1.2rem;
     }
-  
+
     .info2-button {
-      padding: 10px 20px;
-      font-size: 0.9rem;
+        padding: 10px 20px;
+        font-size: 0.9rem;
     }
-  }
-  
+}
