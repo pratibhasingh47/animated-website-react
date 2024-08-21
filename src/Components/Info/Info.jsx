@@ -26,13 +26,11 @@ function Info() {
                 <img src={info} alt="Info" />
             </div>
             <div className="info-right">
-                <h2 className="info-heading">Our Vision</h2>
+                <h2 className="info-heading">Diversity, Equity, and Inclusion</h2>
                 <p className="info-description">
-                    Discover our mission and the journey we are on to make a difference. Learn about our values and goals.
+                Sample text. Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices.  
                 </p>
                 <button className="info-button">Learn More</button>
-                <div className="circle1"></div>
-                <div className="circle2"></div>
             </div>
         </section>
     );
