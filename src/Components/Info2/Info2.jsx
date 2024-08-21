@@ -22,9 +22,9 @@ function Info2() {
     return (
         <section id="info2-section" className={`info2 ${isVisible ? 'animate' : ''}`}>
             <div className="info2-content">
-                <h1 className="info2-heading">Your Trusted Partner</h1>
-                <h2 className="info2-subheading">We Are Here to Help</h2>
-                <button className="info2-button">Contact</button>
+                <h1 className="info2-heading">Our goal is to create 360° Value</h1>
+                <h2 className="info2-subheading">For all our stakeholders</h2>
+                <button className="info2-button">Contact Us</button>
             </div>
         </section>
     );
