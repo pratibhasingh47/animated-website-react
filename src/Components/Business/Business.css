@@ -107,6 +107,16 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
+    .business-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 1200px;
+        width: 90%;
+        gap: 50px;
+    }
+
     .business-heading {
         font-size: 2rem;
         padding-top: 40px;
