@@ -2,60 +2,61 @@
     width: 100vw;
     padding: 50px;
     background-color: #f4f4f4;
-  }
-  
-  .get-in-touch-container {
+}
+
+.get-in-touch-container {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     gap: 2rem;
-  }
-  
-  .get-in-touch-left {
+}
+
+.get-in-touch-left {
     flex: 1;
-  }
-  
-  .get-in-touch-right {
+}
+
+.get-in-touch-right {
     flex: 1;
     display: flex;
     flex-direction: column;
     gap: 20px;
-  }
-  
-  .main-heading {
+}
+
+.main-heading {
     font-size: 2.5rem;
     margin-bottom: 10px;
-  }
-  
-  .mini-heading {
+}
+
+.mini-heading {
     font-size: 1.5rem;
     margin-bottom: 15px;
-  }
-  
-  .description {
+}
+
+.description {
     font-size: 1.1rem;
     margin-bottom: 30px;
-  }
-  
-  .social-icons i {
+}
+
+.social-icons i {
     font-size: 2rem;
     margin-right: 20px;
     cursor: pointer;
-  }
-  
-  input, textarea {
+}
+
+input,
+textarea {
     width: 100%;
     padding: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1rem;
-  }
-  
-  textarea {
+}
+
+textarea {
     height: 150px;
-  }
-  
-  button {
+}
+
+button {
     padding: 15px;
     font-size: 1.2rem;
     color: #fff;
@@ -64,65 +65,65 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-  }
-  
-  button:hover {
+}
+
+button:hover {
     background-color: #555;
-  }
-  
-  /* Responsive for tablets */
-  @media (max-width: 768px) {
+}
+
+/* Responsive for tablets */
+@media (max-width: 768px) {
     .get-in-touch-container {
-      flex-direction: column;
+        flex-direction: column;
     }
-  
+
     .main-heading {
-      font-size: 2rem;
+        font-size: 2rem;
     }
-  
+
     .mini-heading {
-      font-size: 1.2rem;
+        font-size: 1.2rem;
     }
-  
+
     .social-icons i {
-      font-size: 1.8rem;
+        font-size: 1.8rem;
     }
-  }
-  
-  /* Responsive for phones */
-  @media (max-width: 480px) {
+}
+
+/* Responsive for phones */
+@media (max-width: 480px) {
     .get-in-touch {
-      padding: 30px;
+        padding: 30px;
     }
-  
+
     .main-heading {
-      font-size: 1.8rem;
+        font-size: 1.8rem;
     }
-  
+
     .mini-heading {
-      font-size: 1rem;
+        font-size: 1rem;
     }
-  
-    input, textarea {
-      font-size: 0.9rem;
+
+    input,
+    textarea {
+        font-size: 0.9rem;
     }
-  
+
     button {
-      font-size: 1rem;
+        font-size: 1rem;
     }
-  }
-  
-  /* Animation */
-  .get-in-touch.animate .get-in-touch-left,
-  .get-in-touch.animate .get-in-touch-right {
+}
+
+/* Animation */
+.get-in-touch.animate .get-in-touch-left,
+.get-in-touch.animate .get-in-touch-right {
     opacity: 1;
     transform: translateY(0);
     transition: all 0.6s ease-in-out;
-  }
-  
-  .get-in-touch-left,
-  .get-in-touch-right {
+}
+
+.get-in-touch-left,
+.get-in-touch-right {
     opacity: 0;
     transform: translateY(50px);
-  }
-  
+}
