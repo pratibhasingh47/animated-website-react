@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './GetInTouch.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTwitter, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 function GetInTouch() {
     const [isVisible, setIsVisible] = useState(false);
@@ -23,13 +25,13 @@ function GetInTouch() {
         <section id="get-in-touch-section" className={`get-in-touch ${isVisible ? 'animate' : ''}`}>
             <div className="get-in-touch-container">
                 <div className="get-in-touch-left">
-                    <h1 className="main-heading">Get In Touch</h1>
-                    <h3 className="mini-heading">We'd love to hear from you</h3>
-                    <p className="description">Feel free to reach out via our social channels or drop us a message directly.</p>
+                    <p className="heading1">Get In Touch</p>
+                    <p className="heading2">Hey! We are looking forward to start a project with you!</p>
+                    <p className="description">Etiam sit amet convallis erat – class aptent taciti sociosqu ad litora torquent per conubia! Maecenas gravida lacus. Lorem etiam sit amet convallis erat.</p>
                     <div className="social-icons">
-                        <i className="fab fa-twitter"></i>
-                        <i className="fab fa-instagram"></i>
-                        <i className="fab fa-youtube"></i>
+                        <FontAwesomeIcon icon={faTwitter} />
+                        <FontAwesomeIcon icon={faInstagram} />
+                        <FontAwesomeIcon icon={faYoutube} />
                     </div>
                 </div>
                 <div className="get-in-touch-right">
@@ -40,6 +42,7 @@ function GetInTouch() {
                 </div>
             </div>
         </section>
+
     );
 }
 
