@@ -1,6 +1,7 @@
 import './App.css';
 import Business from './Components/Business/Business';
 import Consult from './Components/Consult/Consult';
+import GetInTouch from './Components/GetInTouch/GetInTouch';
 import Header from './Components/Header/Header';
 import Hero from './Components/Hero/Hero';
 import Info from './Components/Info/Info';
@@ -21,6 +22,7 @@ function App() {
 			<Consult/>
 			<Business/>
 			<Testimonial/>	
+			<GetInTouch/>
 		</div>
 	);
 }
