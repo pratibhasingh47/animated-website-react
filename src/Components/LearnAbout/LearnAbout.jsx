@@ -26,22 +26,27 @@ function LearnAbout() {
                 <h1 className="main-heading">Learn About Our Practice Areas</h1>
                 <div className="columns">
                     <div className="column">
-                        <div className="point">Service 1</div>
-                        <div className="point">Service 2</div>
-                        <div className="point">Service 3</div>
-                        <div className="point">Service 4</div>
+                        <div className="point">Business Operations</div>
+                        <div className="point">Company Transformation</div>
+                        <div className="point">Idea Sketching</div>
+                        <div className="point">Digital Solutions</div>
                     </div>
                     <div className="column">
-                        <div className="point">Service 5</div>
-                        <div className="point">Service 6</div>
-                        <div className="point">Service 7</div>
-                        <div className="point">Service 8</div>
+                        <div className="point">
+                            Marketing</div>
+                        <div className="point">
+                            Value Matrix
+                        </div>
+                        <div className="point">Corporate Travel</div>
+                        <div className="point">Consulting</div>
                     </div>
                     <div className="column">
-                        <div className="point">Service 9</div>
-                        <div className="point">Service 10</div>
-                        <div className="point">Service 11</div>
-                        <div className="point">Service 12</div>
+                        <div className="point">
+                            Product Bootcamp</div>
+                        <div className="point">Concept Design</div>
+                        <div className="point">Experience Maps</div>
+                        <div className="point">
+                            Technology Solutions</div>
                     </div>
                 </div>
                 <button className="learn-more-button">Learn More</button>

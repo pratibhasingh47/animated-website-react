@@ -12,7 +12,7 @@
 
 .learn-about {
     width: 100vw;
-    background-color: #f4f4f4;
+    background-color: var(--secondary-background-color);
     padding: 40px 20px;
     box-sizing: border-box;
     text-align: center;
@@ -33,23 +33,25 @@
 
 .mini-heading {
     font-size: 1.5rem;
-    color: #555;
+    color: #ffffff;
     margin-bottom: 10px;
     font-family: var(--primary-font);
+    text-align: left;
 }
 
 .main-heading {
+    text-align: left;
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 40px;
-    color: #333;
+    color: #ffffff;
     font-family: var(--primary-font);
 }
 
 .columns {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    gap: 50px;
 }
 
 .column {
@@ -60,10 +62,10 @@
 }
 
 .point {
-    padding: 10px;
-    border-bottom: 2px solid #007BFF;
-    font-size: 1.2rem;
-    color: #333;
+    padding: 20px;
+    border-bottom: 2px solid #838383c9;
+    font-size: 1.4rem;
+    color: var(--background-color);
     font-family: var(--primary-font);
     text-align: left;
 }
@@ -71,11 +73,11 @@
 .learn-more-button {
     margin-top: 40px;
     padding: 15px 30px;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-family: var(--primary-font);
     font-weight: 600;
-    color: #fff;
-    background-color: #007BFF;
+    color: #000000;
+    background-color: var(--background-color);
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -83,11 +85,19 @@
 }
 
 .learn-more-button:hover {
-    background-color: #0056b3;
+    background-color: #ffffff;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
+
+    .columns {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    
     .learn-about {
         padding: 30px 15px;
     }
@@ -97,7 +107,7 @@
     }
 
     .point {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 
     .learn-more-button {
@@ -112,7 +122,7 @@
     }
 
     .point {
-        font-size: 0.9rem;
+        font-size: 1.2rem;
     }
 
     .learn-more-button {
