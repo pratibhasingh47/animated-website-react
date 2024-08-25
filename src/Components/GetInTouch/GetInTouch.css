@@ -108,11 +108,21 @@ button {
 /* Responsive for phones */
 @media (max-width: 480px) {
     .get-in-touch {
-        padding: 30px;
+        padding: 10px;
+        width: 100vw;
+        margin: 0;
+    }
+
+    .get-in-touch-left{
+        width: 80vw;
+    }
+
+    .get-in-touch-right{
+        width: 80vw;
     }
 
     .main-heading {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     .mini-heading {
