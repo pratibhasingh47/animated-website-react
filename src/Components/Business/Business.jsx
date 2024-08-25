@@ -32,7 +32,7 @@ function Business() {
                 </div>
                 <div className="business-right">
                     <div className="business-image">
-                        <img src={Bimg} alt="Business Image" />
+                        <img src={Bimg} alt="" />
                     </div>
                 </div>
             </div>

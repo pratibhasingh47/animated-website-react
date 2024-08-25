@@ -24,7 +24,7 @@ function Consult() {
         <section id="consult-section" className={`consult ${isVisible ? 'animate' : ''}`}>
             <div className="consult-container">
                 <div className="consult-image">
-                    <img src={consult} alt="Consult Image" />
+                    <img src={consult} alt="" />
                 </div>
                 <div className="consult-info">
                     <h2 className="consult-heading">How to Get Consulting Clients</h2>
